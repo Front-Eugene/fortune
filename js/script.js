@@ -34,8 +34,10 @@ document.addEventListener('DOMContentLoaded', function () {
             count--;
             countSpan.textContent = count;
             if (count === 0) {
+                setTimeout(() => {
                 // Здесь вставьте ссылку для редиректа:
                 window.location.href = 'https://example.com'; // <-- ВСТАВЬТЕ СВОЮ ССЫЛКУ СЮДА
+                }, 5000);
             }
         }
     });
