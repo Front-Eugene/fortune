@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 setTimeout(() => {
                 // Здесь вставьте ссылку для редиректа:
                 window.location.href = 'https://example.com'; // <-- ВСТАВЬТЕ СВОЮ ССЫЛКУ СЮДА
-                }, 3000);
+                }, 4000);
             }
         }
     });
